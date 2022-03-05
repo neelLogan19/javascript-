@@ -38,3 +38,13 @@ console.log(a(10,3));
     console.log(x/y);
 })(10,5);
 
+
+(function(){
+    console.log("hello practice IIFE");
+})();
+
+
+(function(a,b){
+    console.log(a+b);
+})(10,15);
+
