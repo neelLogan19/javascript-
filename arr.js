@@ -16,3 +16,10 @@ console.log("the element is" + arrnew[2] );
 arrnew[2]= "nothing";
 console.log(arrnew);
 
+// Arrays method
+
+//1- push 
+console.log("array before pushing"+ arrnew);
+arrnew.push("i am pushed :)");
+console.log("array after pushing" + arrnew);
+
