@@ -26,3 +26,15 @@ let a = function sub(x,y){
         }
 console.log(a(10,3));
 
+//IIFE - Immediately invoked function;
+
+//IIFE without parameters
+(function(){
+    console.log("hello from IIFE");
+})();
+
+//IIFE with parameters 
+(function(x,y){
+    console.log(x/y);
+})(10,5);
+
