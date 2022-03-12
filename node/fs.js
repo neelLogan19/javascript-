@@ -37,6 +37,17 @@ let path = require("path");
 
 //reading a different  directory
 //replace single slash with double
-let fileName = "C:\\Users\\Neel\\Desktop\\fjp-6\\module1";
-let dircontent = fs.readdirSync(fileName);
-console.log(dircontent); 
+// let fileName = __dirname;
+// let dircontent = fs.readdirSync(fileName);
+// console.log(dircontent); 
+
+//delete directory 
+// fs.rmdirSync("hamariDirectory"); -----> only for empty directory 
+
+
+//copying file to another folder
+let sourcePath = path.join(__dirname,"newfile.txt");
+let destinationPath = path.join(__dirname,"module","newfile.txt");
+console.log(sourcePath);
+console.log(destinationPath);
+fs.copyFileSync(sourcePath,destinationPath);
