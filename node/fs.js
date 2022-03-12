@@ -46,8 +46,65 @@ let path = require("path");
 
 
 //copying file to another folder
-let sourcePath = path.join(__dirname,"newfile.txt");
-let destinationPath = path.join(__dirname,"module","newfile.txt");
-console.log(sourcePath);
-console.log(destinationPath);
-fs.copyFileSync(sourcePath,destinationPath);
+// let sourcePath = path.join(__dirname,"newfile.txt");
+// let destinationPath = path.join(__dirname,"module","newfile.txt");
+// console.log(sourcePath);
+// console.log(destinationPath);
+// fs.copyFileSync(sourcePath,destinationPath);
+
+//Questions-dev
+
+//------------1-----------
+
+//make a folder inside same directory of this file and in that folder make a text file with content
+//new file has been made
+
+// if(fs.existsSync("newfolder")==false){
+//     fs.mkdirSync("newfolder");
+// }
+
+// let newFileName = path.join(__dirname,"newfolder","newcontent.txt");
+
+// fs.writeFileSync(newFileName,"hello i am the first file for question 1");
+
+
+//question 2 
+// given an array arr=[audio,video,image,software,documents,applications,other]
+//make folder for each element in the given array and inside each folder make 4 files of that type
+
+// let arr=["audio","video","image","software","documents","applications","other"];
+
+// for(let i=1;i<=arr.length-1;i++){
+//     console.log(arr[i]);
+// }
+
+// for(let i=0;i<=arr.length-1;i++){
+//     if(fs.existsSync(arr[i])==false){
+//         fs.mkdirSync(arr[i]);
+//     }
+// }
+
+// for(let i=0;i<2;i++){
+//     if(arr[i]=="audio"){
+//         for(let j=1;j<=4;j++){
+//             let x = "audio"+j+".mp3";
+//             let z = path.join(__dirname,"audio",x)
+//             fs.writeFileSync(z,"this is a audiofile")
+//         }
+    
+        
+//     }else if(arr[i]=="video"){
+//         for(let j=1;j<=4;j++){
+//             let y = "video"+j+".mp4";
+//             let o = path.join(__dirname,"video",y)
+            
+//             fs.writeFileSync(o,"this is a videofile")
+//         }
+// }
+// }
+
+
+// let i = 1;
+// console.log("audio"+i);
+
+
