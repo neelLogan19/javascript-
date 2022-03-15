@@ -107,4 +107,80 @@ let path = require("path");
 // let i = 1;
 // console.log("audio"+i);
 
+//------>Question 3 
+
+
+// if(fs.existsSync("html")==false){
+//         fs.mkdirSync("html");
+// }
+
+// let sourcepath = path.join(__dirname,)
+// let fipath = "C:\\Users\\Neel\\Desktop\\fjp-6\\module1";
+// let sourcePath = path.join(fipath,"index.html");
+// let destinationPath = path.join(__dirname,"html","index.html");
+// fs.copyFileSync(sourcePath,destinationPath);
+
+
+//questioin-4
+// read content of unorganised folder and make  an array 
+//which has extension name of each file
+// let fileName = "C:\\Users\\Neel\\Desktop\\fjp-6\\module1";
+// let dirContent = fs.readdirSync(fileName);
+// let arr = [];
+// for(let i=0;i<dirContent.length;i++){
+//         let newName= "C:\Users\Neel\Desktop\fjp-6\module1"
+//         let ui= path.join(newName,dirContent[i]);
+//         let eName = path.extname(ui);
+//         arr.push(eName);
+// }
+// console.log(arr);
+
+// question 4 
+// let arr=["audi","vide","imag","softwar","document","application","othe"];
+// let nameArr=["abc","xyz","cvb","ubu"];
+// let extArr=[".mp3",".mp4",".jpg",".exe",".pdf",".apk",".rar"];
+
+// let organisePath = path.join(__dirname,"orgainse");
+// if(fs.existsSync("organise")==false){
+//         fs.mkdirSync("orgainse");
+// }
+
+// for(let i=0;i<arr.length;i++){
+//         let folderKaPath=path.join(organisePath,arr[i]);
+//         if(fs.existsSync(folderKaPath)==false){
+//                 fs.mkdirSync(folderKaPath);
+//         }
+// }
+
+//contd.....
+
+//question 3 - (".."- used to go back from directory )
+
+// let newFile= path.join(__dirname,"..","html");
+// if(fs.existsSync(newFile)==false){
+//         fs.mkdirSync(newFile);
+// }
+
+
+// let sourcePath = path.join(__dirname,"..","..","module1","index.html");
+// let destinationPath = path.join(__dirname,"..","html","index.html")
+// fs.copyFileSync(sourcePath,destinationPath);
+
+///--------------> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
