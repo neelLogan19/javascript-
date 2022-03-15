@@ -128,9 +128,9 @@ let path = require("path");
 // let dirContent = fs.readdirSync(fileName);
 // let arr = [];
 // for(let i=0;i<dirContent.length;i++){
-//         let newName= "C:\Users\Neel\Desktop\fjp-6\module1"
-//         let ui= path.join(newName,dirContent[i]);
-//         let eName = path.extname(ui);
+//         let newName= dirContent[i]
+//         
+//         let eName = path.extname(newName);
 //         arr.push(eName);
 // }
 // console.log(arr);
@@ -167,6 +167,21 @@ let path = require("path");
 // fs.copyFileSync(sourcePath,destinationPath);
 
 ///--------------> 
+
+
+//move file - question number 5
+
+
+
+
+
+
+//question-6 
+//read content of unorganised folder and print each file type
+//for example abc.mp3 --> print Audio File
+//            xyz.mp4 --> print Video File
+//            fsd.jpeg -> print Image File
+
 
 
 
